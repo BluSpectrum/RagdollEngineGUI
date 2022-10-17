@@ -3694,7 +3694,7 @@ connect(game:GetService("RunService").Heartbeat,function()
 		settrans(pottool.Cork,0)
 	end
 	if char then
-		bodytrans("Arm",NoArms.TickBox.Value.Value,true)
+		--[[bodytrans("Arm",NoArms.TickBox.Value.Value,true)
 		bodytrans("Hand",NoArms.TickBox.Value.Value,true)
 		bodytrans("Leg",NoLegs.TickBox.Value.Value,true)
 		bodytrans("Foot",NoLegs.TickBox.Value.Value,true)
@@ -3711,7 +3711,7 @@ connect(game:GetService("RunService").Heartbeat,function()
 					end
 				end
 			end
-		end
+		end]]
 	end
 end)
 
